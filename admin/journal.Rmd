@@ -1,13 +1,17 @@
+---
+output: html_document
+bibliography: lit.bib
+---
+
 ## Notes on Anhui Longitudinal data analysis for SH
 
-### 27.10.
+#### Thursday 27.10.2016
 
 Recieved questionairres from SH. files `EnglishQuestionnaire2001` to `2015` in `data/questionnaires`. 
 2001 queationnaire starts with "two years ago.." which is obiously an error!?
+Additional querries about these questionnaires: 2001, 2003 and 2006 have Q903 "which year is it" as the correct answer "sheep". Obvs not true so this is some post festum stuff going on. 
 
-Correct name of survey is 
-
-> The Longitudinal Study of Older People in Anhui Province, China
+Correct name of survey is: *"The Longitudinal Study of Older People in Anhui Province, China"*
 
 Although in first four questionnaires it is referred to as Chaohu region - this region no longer exists, actually not sure if it ever was a region, the city also seems to not exist any longer or rather Wikipedia says "On August 22, 2011, Anhui province government announced in a controversial decision[1] that Chaohu was split into three parts and was absorbed by neighboring cities." 
 
@@ -17,3 +21,23 @@ Found and registered for Naitonal Archive o Computerised data on Ageing - http:/
 Citation: Silverstein, Merril, and Shuzhou Li. The Longitudinal Study of Older People in Anhui Province, China, 2001-2003. ICPSR36388-v1. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2016-05-16. http://doi.org/10.3886/ICPSR36388.v1
 
 Persistent URL: http://doi.org/10.3886/ICPSR36388.v1
+
+
+[[Sons and Daughters:Adult Children’s Care for Elderly Parents at the End of Life in Rural China]] says
+that since 2003 a mortality questionnaire was also used? But these are not in the files SH sent. 
+
+Meeting with SH:
+
+- wants to see if ANHUI dataset will show any vestigal effects of great famine (1959–1961)and/or cultural revolution (1966-76) on late life well being. so not just individual level events as is normally looked at, but national events. [cf Minton and me on mortality surfaces, and 1918 ripple in particular, SH remembers Rowena XY sth on flu mortality as well. Can't google who she is, ask SH. ]
+
+- given the cutoff point was 60 in 2001, both these events would have occurred when the respondents were 18 and 25 respectively at the youngest. 
+
+- If Anhui doesn't look good for that, it is worth looking at CHARLS - one of the HRS surveys - China Health and Retirement Longitudinal Study [http://charls.ccer.edu.cn/en]
+
+- 27.10. MZ signed up for CHARLS data - academic research licence
+
+- MZ to go through available documentation on Anhui to try to reconstruct what the survey is, as well as available publications, and write up a "can you please confirm" type letter for Huijun. 
+
+- test bibliograhy: @Cong2008
+
+# References
