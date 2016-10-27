@@ -1,0 +1,19 @@
+## Notes on Anhui Longitudinal data analysis for SH
+
+### 27.10.
+
+Recieved questionairres from SH. files `EnglishQuestionnaire2001` to `2015` in `data/questionnaires`. 
+2001 queationnaire starts with "two years ago.." which is obiously an error!?
+
+Correct name of survey is 
+
+> The Longitudinal Study of Older People in Anhui Province, China
+
+Although in first four questionnaires it is referred to as Chaohu region - this region no longer exists, actually not sure if it ever was a region, the city also seems to not exist any longer or rather Wikipedia says "On August 22, 2011, Anhui province government announced in a controversial decision[1] that Chaohu was split into three parts and was absorbed by neighboring cities." 
+
+Found and registered for Naitonal Archive o Computerised data on Ageing - http://www.icpsr.umich.edu/icpsrweb/NACDA/studies/36388 is the study link, but only for 2001 and 2003 waves. But full datasets for both are there. Accessd and dowloaded 27.10/ in `data/archives/ICPSR_36388-2001` and `data/archives/ICPSR_36388-2003`. Quote: "These data are available to the general public."
+
+
+Citation: Silverstein, Merril, and Shuzhou Li. The Longitudinal Study of Older People in Anhui Province, China, 2001-2003. ICPSR36388-v1. Ann Arbor, MI: Inter-university Consortium for Political and Social Research [distributor], 2016-05-16. http://doi.org/10.3886/ICPSR36388.v1
+
+Persistent URL: http://doi.org/10.3886/ICPSR36388.v1
