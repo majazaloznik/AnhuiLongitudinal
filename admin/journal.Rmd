@@ -1,6 +1,5 @@
 ---
 output: html_document
-bibliography: lit.bib
 ---
 
 ## Notes on Anhui Longitudinal data analysis for SH
@@ -38,6 +37,13 @@ Meeting with SH:
 
 - MZ to go through available documentation on Anhui to try to reconstruct what the survey is, as well as available publications, and write up a "can you please confirm" type letter for Huijun. 
 
-- test bibliograhy: @Cong2008
 
-# References
+
+#### Tuesday 1.11.2016
+
+Applied for CHARLS individual datasets for all 3 waves plust two pilots. 
+
+Recieved two mortality questionnaires from Huijuin, saved in `data/questionnaires/EnglishQuestionnaireDeath` for 2003 (same as 2006, 09 and 12) and 2015.
+
+
+

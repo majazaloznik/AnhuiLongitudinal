@@ -1,0 +1,137 @@
+---
+output:
+  html_document:
+    toc: true
+    number_sections: true
+bibliography: ../admin/lit.bib
+---
+
+# Overview of Documentation and Publications relating to Anhui Longitudinal Survey
+
+Anhui Province - "one of the most elderly provinces in CHina. This region was chosen specifically for its relatively high density of older adults and high levels of out-migration of working age adults" p21 @Cong2008
+
+@Cong2008 says 12 rural townshops (p.21) @Congetal2008 say 6 rural townships (p.601)
+
+## Survey Structure based on available publications
+
+### Children's migration and well-being of older adults - @Cong2008
+
+First paper: two waves 2001 and 2003
+*Sampling design*: Data were collected from a sample of adults age 60 and over living in rural townships within Chaohu, a city of 4.5 million people located on the north bank of the Yangtze River in the central part of Anhui Provinc. The sample was identified using a stratified multistage method to randomly select 1,800 potential respondents. First, **12 rural townships** were randomly selected from all 126 townships in Chaohu. Second, 6 administrative villages were randomly selected in each township. Third, within each selected village, all people aged 60 and older were stratified to form two sampling frames based on age: (1) those aged 60-74, and (2) those 75 and above, providing an intentional over-sample of the 75+ population. Of 1,800 individuals randomly selected for the study, 1,715 completed the survey, yielding a response rate of 95.3%. The completed sample included 829 men (48.8%)and 869 women (51.2%). In terms of age, 61.2% were 65-74 years old and 38.8% were 75 years and older. In October 2003 the follow-up survey was conducted with 1,368 respondents, or 79.8% of the original participants. Of those respondents who were not located, 76 had moved out of the village, and 240 died. Twenty-three former respondents were located but refused to participate, terminated their interviews, and/or were too ill to be interviewed.
+
+
+
+### Intergenerational Support and Depression @Congetal2008
+
+*Sampling design*: We collected data from a random sample of adults aged 60 and older living in rural townships within Chaohu, a primarily agricultural municipal dis- trict of 4.5 million people located on the north bank of the Yangtze River in the central part of Anhui Province. Using a stratified multistage method, we selected eligible respondents from 72 randomly selected villages within **six rural townships** in the Chaohu region. Adults aged 60 years and older were randomly selected from village rosters, with an oversampling of people 75 years old and older. The survey was originally fielded in April 2001 as a joint project between Xi’an Jaotong University and the University of Southern California. Of 1,800 eligible partici- pants selected at baseline, 1,715 completed the survey, yielding a response rate of 95.3%. In November 2003, a follow-up survey was con- ducted with 1,368 respondents, or 79.8% of the original participants. The primary reason for sample attrition was mortality (14%), leaving only 6% of the sample lost to follow-up for non- mortality-related reasons. The
+
+
+
+
+### Subjective health and intergenerational support -  @Li2009
+
+### Loneliness and empty nest elderly - @Wu2010
+
+### Depression and support from sons and daughters - @Cong2011
+
+### Intergenerational abmivalence - @Guo2013
+
+
+### End of life care for parents and role of gender of children. @Zuo2013 
+
+First five waves 2001, 2003, 2006, 2009, 2012, and  four mortality questionnaires (all except 2001)
+
+*Sampling design*: Older adults who aged 60 and older resided in the rural region of Chaohu, Anhui Province, China were randomly selected using stratified multi-stage sampling method.
+
+Sample retention: 
+
+- 1,715 valid at the baseline (2001 wave)
+- 1,391 (wave 2003), 
+- 1,067 (wave 2006), 
+- 808 (wave 2009), 
+- 605 (wave 2012)
+
+*Main questionnaire* : socio-demographics of elderly parents and their children, intergenerational exchange, health status etc
+
+*Mortality questionnaire*: end-of-life indivisual and family characteristics, caregiving providers, frequencies etc. Not clear where the data are for this? 
+
+### Well-being and multiple children - @Guo2014
+
+
+
+
+## Publications based on Ahnui Survey
+
+### Children's migration and well-being of older adults @Cong2008
+
+*Data*: first two waves
+
+*Method*: Random effects regression 
+
+Data: 2001, 2003 waves - 4,101 parent child dyads. 
+
+Method: 
+
+- Dependent variable: financial transfers from children 
+- Independent variables: migration status of children, frequency of care, 
+- control variables: age, no of children, gender, marital status, education  etc
+
+
+Method2:
+
+- Dependent variable: transiting into coresiding with parent
+- Independent variables: intergenerational help, care, financial, 
+- control variables: age, no of children, gender, marital status, education  etc
+
+### Intergenerational Support and Depression @Congetal2008
+
+*Data*: 2001 and 2003 waves
+
+*Method*: Ordinary least squared regression hierarchical 
+
+Data: 1,281 older people whoparticipated in both surveys,whohad at least one living child, and who had no missing value for depressive symptoms at the second interview.
+
+
+Method: 
+
+- Dependent variable severity of depressive symptoms in second wave - depression scale from 3 pozitive, 2 negative, 2 marginalization and 2 somatic . 
+- Independent variables : Intergenerational support, baseline and changes
+- control variables: age, gender, education, martial status, health, income 
+
+
+### Subjective health and intergenerational support -  @Li2009
+
+### Loneliness and empty nest elderly - @Wu2010
+
+### Depression and support from sons and daughters - @Cong2011
+
+### Intergenerational abmivalence - @Guo2013
+
+
+
+
+### End of life care for parents and role of gender of children.  @Zuo2013 
+
+*Data*:  four 2003, 2006, 2009, and 2012  waves (mortality only)
+
+*Method*: Four waves using multi-level linear model
+
+Data: 2003-20012 waves of mortality questionnaire, only adults who had at least one child before their death. This resulted in 1557 son-parent diads (708 older adult families) and 1355 daughter-parent diads (660 older adult families). But they never say how many deceased are in the sample. 
+
+[Looks like the reason for using death q is quesiton 8. which gives frequency of care provided by children and others, beofre the person died. This question appears to have dissapeared in the 2015 quesitonnaire.]
+
+
+Method: 
+
+- Dependent variable is frequency of provided household help and personal care before death. 
+- Independent variables are birth order, distance etc, Intergenerational support from previous wave
+- control variables: children's age, martiyal status, career, education, etc. 
+
+Hierarchical linear modelling
+
+Results: Birth order and gender stereotypes fading, but still important
+
+### Well-being and multiple children - @Guo2014
+
+# References
+
