@@ -27,7 +27,7 @@ that since 2003 a mortality questionnaire was also used? But these are not in th
 
 Meeting with SH:
 
-- wants to see if ANHUI dataset will show any vestigal effects of great famine (1959–1961)and/or cultural revolution (1966-76) on late life well being. so not just individual level events as is normally looked at, but national events. [cf Minton and me on mortality surfaces, and 1918 ripple in particular, SH remembers Rowena XY sth on flu mortality as well. Can't google who she is, ask SH. ]
+- wants to see if ANHUI dataset will show any vestigal effects of great famine (1959–1961) and/or cultural revolution (1966-76) on late life well being. so not just individual level events as is normally looked at, but national events. [cf Minton and me on mortality surfaces, and 1918 ripple in particular, SH remembers Rowena XY sth on flu mortality as well. Can't google who she is, ask SH. ]
 
 - given the cutoff point was 60 in 2001, both these events would have occurred when the respondents were 18 and 25 respectively at the youngest. 
 
@@ -46,4 +46,48 @@ Applied for CHARLS individual datasets for all 3 waves plust two pilots.
 Recieved two mortality questionnaires from Huijuin, saved in `data/questionnaires/EnglishQuestionnaireDeath` for 2003 (same as 2006, 09 and 12) and 2015.
 
 
+
+#### Thursday 3.11.2016
+
+Received Charls full datasets. Saved in `data/charls/CHARLS_Life_History_Data/`. Originally in Stata 13 format, backsaved in Stata to version 12. 
+
+This is the 2014 wave 3 - life history survey
+
+- Demographic_backgrounds = 20,543, 1920 variables
+- Education_History = 20,496 obs 1105 variables
+- Family_Infomration = 20,452 obs 473 variables
+- Health_History = 20,492 obs, 86 variables 
+- Wealth_History = 20.418 obs, 440 vars
+- Residence = 20,654 obs, 935 vars
+- Work_History = 20,484 obs, 2024 vars
+- Sample_Infor = 20,948 obs, 8 vars
+
+#### Friday 4.11.2016
+
+Huijun sends over table of repondent counts. 
+
+|Wave	|Time|	Size	|Follow-up Valid Sample	|Replenished Valid Sample|	Death	|Moved	|Village|
+|--|------------|------|--------|-----|--|--|-|
+|1 |	2001.04 	|1,800 |	1,715 |	— 	|— 	|— |	— |
+|2 |	2003.11 	|1,715 |	1,391 |	— 	|240| 	76| 	—| 
+|3 |	2006.12 	|1,391 |	1,067 |	— 	|236| 	57| 	—| 
+|4 |	2009.06 	|1,067 |	808 	|416 (60-67 years old）| 	173 |	33| 	—| 
+|5 |2012.09 |	808+416=1,224 |	977 |	— 	|181 |	46| 	—| 
+|6 |2015.09 |	1243 |	763 |	 480 (60-65 years old） |	160 |	15 |	64| 
+
+
+
+Compared to available information from publications it is still not clear - or inconsistent. Following quesitons:
+
+1. What does "village" mean? 
+2. Is this correct: Follow-up Valid Sample + Death + Moved = Size - Missing(refused). So this means there were 8, 31, 53, 20 and 39 missing in waves 2-6?
+3. Is the size in row 6 actually 977, not 1243?
+4. What are the 64 in the last row?
+5. Is there any more information on the replenished sample? 
+6. Is it true that:
+- waves 1-3 the youngest participants are born 1941
+- waves 4-5 the youngest participants are born 1949
+- wave 6 there are 480 people born between 1950 and 1955
+7. What about inconsistencies with published studies? Zuo, Dongmei and Li, Shuzhuo (2013) say there are 605 follow up in wave 5, and don't mention a replenishment in wave 4?
+8.Do you have information on the numbers of children in each wave?
 

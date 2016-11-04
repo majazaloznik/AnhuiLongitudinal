@@ -1,12 +1,49 @@
 ---
 output:
   html_document:
-    toc: true
     number_sections: true
 bibliography: ../admin/lit.bib
 ---
 
 # Overview of Documentation and Publications relating to Anhui Longitudinal Survey
+
+## Survey respondent counts and attrition
+
+The information from the publications using the survey is incomplete and in parts inconsistent with the second table, provided by Huijun. 
+
+Table 1: Information from Huijun, with notes for inconsistencies. 
+
+|Wave	|Time|	Size	|Follow-up Valid Sample	|Replenished Valid Sample|	Death	|Moved	|Village|
+|--|------------|------|--------|-----|--|--|-|
+|1 |	2001.04 	|1,800 |	1,715 |	— 	|— 	|— |	— |
+|2 |	2003.11 	|1,715 |	1,391 |	— 	|240| 	76| 	—| 
+|3 |	2006.12 	|1,391 [^1]|	1,067 |	— 	|236| 	57| 	—| 
+|4 |	2009.06 	|1,067 |	808 	|416 (60-67 years old）| 	173 |	33| 	—| 
+|5 | 2012.09 |	808+416=1,224 |	977 [^3] |	— 	|181 |	46| 	—| 
+|6 | 2015.09 |	1243 [^2] |	763 |	 480 (60-65 years old） |	160 |	15 |	64| 
+
+[^1]: according to @Cong2008 it is 1,368
+
+[^2]: This is an error, should read 977. 
+
+[^3]: According to @Zuo2013 this is 605?
+
+Issues with this table are (awaiting clarification) : Not clear what "village"" means, refusals not listed, so unable to check, last line 1,243 is an error and should be 977. Also there are inconsistencies with the publication data. 
+
+Based on this information it would seem that the ages of the youngest respondents are:
+
+- waves 1-3 the youngest participants are born 1941
+- waves 4-5 the youngest participants are born 1949, with 416 of them born 1942-49
+- wave 6 there are 480 people born between 1950-55
+
+This means there is:
+ 
+- 416 respondents who were between 10 and 17 when the great famine started (1959), and we have 3 waves of data on them (unless they died/moved)
+
+- 480 respondents who were between 4 and 9 when the great famine started (1959), and we have one wave of data on them. 
+
+
+
 
 Anhui Province - "one of the most elderly provinces in CHina. This region was chosen specifically for its relatively high density of older adults and high levels of out-migration of working age adults" p21 @Cong2008
 
@@ -16,14 +53,14 @@ Anhui Province - "one of the most elderly provinces in CHina. This region was ch
 
 ### Children's migration and well-being of older adults - @Cong2008
 
-First paper: two waves 2001 and 2003
-*Sampling design*: Data were collected from a sample of adults age 60 and over living in rural townships within Chaohu, a city of 4.5 million people located on the north bank of the Yangtze River in the central part of Anhui Provinc. The sample was identified using a stratified multistage method to randomly select 1,800 potential respondents. First, **12 rural townships** were randomly selected from all 126 townships in Chaohu. Second, 6 administrative villages were randomly selected in each township. Third, within each selected village, all people aged 60 and older were stratified to form two sampling frames based on age: (1) those aged 60-74, and (2) those 75 and above, providing an intentional over-sample of the 75+ population. Of 1,800 individuals randomly selected for the study, 1,715 completed the survey, yielding a response rate of 95.3%. The completed sample included 829 men (48.8%)and 869 women (51.2%). In terms of age, 61.2% were 65-74 years old and 38.8% were 75 years and older. In October 2003 the follow-up survey was conducted with 1,368 respondents, or 79.8% of the original participants. Of those respondents who were not located, 76 had moved out of the village, and 240 died. Twenty-three former respondents were located but refused to participate, terminated their interviews, and/or were too ill to be interviewed.
+
+*Sampling design*: "Data were collected from a sample of adults age 60 and over living in rural townships within Chaohu, a city of 4.5 million people located on the north bank of the Yangtze River in the central part of Anhui Provinc. The sample was identified using a stratified multistage method to randomly select 1,800 potential respondents. First, **12 rural townships** were randomly selected from all 126 townships in Chaohu. Second, 6 administrative villages were randomly selected in each township. Third, within each selected village, all people aged 60 and older were stratified to form two sampling frames based on age: (1) those aged 60-74, and (2) those 75 and above, providing an intentional over-sample of the 75+ population. Of 1,800 individuals randomly selected for the study, 1,715 completed the survey, yielding a response rate of 95.3%. The completed sample included 829 men (48.8%)and 869 women (51.2%). In terms of age, 61.2% were 65-74 years old and 38.8% were 75 years and older. In October 2003 the follow-up survey was conducted with 1,368 respondents, or 79.8% of the original participants. Of those respondents who were not located, 76 had moved out of the village, and 240 died. Twenty-three former respondents were located but refused to participate, terminated their interviews, and/or were too ill to be interviewed."
 
 
 
 ### Intergenerational Support and Depression @Congetal2008
 
-*Sampling design*: We collected data from a random sample of adults aged 60 and older living in rural townships within Chaohu, a primarily agricultural municipal dis- trict of 4.5 million people located on the north bank of the Yangtze River in the central part of Anhui Province. Using a stratified multistage method, we selected eligible respondents from 72 randomly selected villages within **six rural townships** in the Chaohu region. Adults aged 60 years and older were randomly selected from village rosters, with an oversampling of people 75 years old and older. The survey was originally fielded in April 2001 as a joint project between Xi’an Jaotong University and the University of Southern California. Of 1,800 eligible partici- pants selected at baseline, 1,715 completed the survey, yielding a response rate of 95.3%. In November 2003, a follow-up survey was con- ducted with 1,368 respondents, or 79.8% of the original participants. The primary reason for sample attrition was mortality (14%), leaving only 6% of the sample lost to follow-up for non- mortality-related reasons. The
+*Sampling design*: "We collected data from a random sample of adults aged 60 and older living in rural townships within Chaohu, a primarily agricultural municipal dis- trict of 4.5 million people located on the north bank of the Yangtze River in the central part of Anhui Province. Using a stratified multistage method, we selected eligible respondents from 72 randomly selected villages within **six rural townships** in the Chaohu region. Adults aged 60 years and older were randomly selected from village rosters, with an oversampling of people 75 years old and older. The survey was originally fielded in April 2001 as a joint project between Xi’an Jaotong University and the University of Southern California. Of 1,800 eligible partici- pants selected at baseline, 1,715 completed the survey, yielding a response rate of 95.3%. In November 2003, a follow-up survey was con- ducted with 1,368 respondents, or 79.8% of the original participants. The primary reason for sample attrition was mortality (14%), leaving only 6% of the sample lost to follow-up for non- mortality-related reasons."
 
 
 
@@ -116,7 +153,7 @@ Method:
 
 *Method*: Four waves using multi-level linear model
 
-Data: 2003-20012 waves of mortality questionnaire, only adults who had at least one child before their death. This resulted in 1557 son-parent diads (708 older adult families) and 1355 daughter-parent diads (660 older adult families). But they never say how many deceased are in the sample. 
+Data: 2003-2012 waves of mortality questionnaire, only adults who had at least one child before their death. This resulted in 1557 son-parent diads (708 older adult families) and 1355 daughter-parent diads (660 older adult families). But they never say how many deceased are in the sample. 
 
 [Looks like the reason for using death q is quesiton 8. which gives frequency of care provided by children and others, beofre the person died. This question appears to have dissapeared in the 2015 quesitonnaire.]
 
